@@ -11688,6 +11688,9 @@ button:focus {
   text-transform: uppercase;
   font-weight: bold;
 }
+.nav-custom li a:hover {
+  color: #ff7d7d !important;
+}
 .nav-custom li.active a {
   color: #DD1111;
 }
@@ -11765,7 +11768,7 @@ button:focus {
   padding: .5em;
 }
 
-.item {
+.immobile {
   width: 100%;
   padding: 10px 15px;
   background: #DD1111;

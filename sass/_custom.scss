@@ -204,6 +204,9 @@ button:focus {outline:0;}
             text-transform: uppercase;
             font-weight: bold;
         }
+        a:hover {
+            color: rgb(255, 125, 125) !important;
+        }
         &.active {
             a {
                 color: #DD1111;
@@ -276,7 +279,7 @@ button:focus {outline:0;}
     padding: .5em;
 }
 
-.item {
+.immobile {
     width: 100%;
     padding: 10px 15px;
     background: #DD1111;
